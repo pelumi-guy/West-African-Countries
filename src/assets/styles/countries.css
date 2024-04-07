@@ -1,0 +1,100 @@
+ /* Flag and Coat of arms */
+
+ .flag {
+    display: inline-block;
+    margin-bottom: 0;
+    height: 1rem;
+    width: 1rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  .flag img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .rounded-circle {
+    border-radius: 50% !important;
+  }
+
+  .btn.focus,
+  .btn:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+
+  .flag-container {
+    height: 2.2rem;
+    width: 2.2rem;
+  }
+
+  .modal-flag-container {
+    display: inline-block;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    height: 4rem;
+    width: 8rem;
+  }
+
+  .country-name {
+    max-width: 70%;
+    word-wrap: break-word;
+  }
+
+  .country-thumbnail {
+    height: 100px;
+    border: 2px solid gray !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition-duration: 0.4s;
+  }
+
+  .country-thumbnail:hover {
+    background-color: #45a049; /* Darker background color on hover */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Increase box shadow size on hover */
+  }
+
+  .country-thumbnail:active {
+    background-color: #3e8e41; /* Darker background color when button is clicked */
+    box-shadow: 0 12px 20px 0 rgba(0,0,0,0.2); /* Increase box shadow size when button is clicked */
+  }
+
+  .official-name {
+    max-width: 95%;
+    word-wrap: break-word;
+  }
+
+  .modal-images {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .coat-of-arms {
+    margin-top: auto;
+    display: inline-block;
+    margin-bottom: 0;
+    height: 7rem;
+    width: 10rem;
+  }
+
+  .coat-of-arms img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    margin-right: auto;
+  }
+
+  /* <uniquifier>: Use a unique and descriptive class name
+<morph>: Use a value from 0 to 60 */
+
+.kablammo-header {
+  font-family: "Kablammo", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
+}
