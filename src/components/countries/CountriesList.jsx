@@ -23,7 +23,7 @@ const CountriesList = () => {
             const countries = allCountries.filter(c => c.name.common.toLowerCase().includes(searchTerm));
             setSearchResult(countries);
 
-            console.log({ keyword, searchResult });
+            // console.log({ keyword, searchResult });
         }
 
         searchCountries();
@@ -79,7 +79,7 @@ const CountriesList = () => {
 
                                         const dailingCodePrefix = country.idd.root
                                         const dailingCodes = dailingCodePrefix + country.idd.suffixes.join(`, ${dailingCodePrefix}`);
-                                        // {country.idd.root.suffixes.join(`, {country.idd.root}`)
+
 
                                         return (
                                             <Fragment key={idx}>
@@ -88,14 +88,6 @@ const CountriesList = () => {
                                                 // data-bs-whatever={country.name.common}
                                                 >
                                                     <p className='country-name my-0 text-start'>{country.name.common}</p>
-
-                                                    {/* <figure className="flag flag-container">
-                                        <img
-                                            src={country.flags.png}
-                                            alt={`${country.name.common}'s flag`}
-                                            className="rounded-circle img-fluid"
-                                        />
-                                    </figure> */}
 
                                                     <CountryImage classNames={"flag flag-container"} src={country.flags.svg} altText={`${country.name.common}'s flag`} rounded
                                                     />
