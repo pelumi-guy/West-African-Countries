@@ -58,7 +58,7 @@ const CountriesList = () => {
         <div className='main'>
             <h2 className='text-center'>Click on a country to see details</h2>
 
-            <p className='ms-4 lead'>{`${keyword ? 'Search Result' : 'List of all West African Countries'}`}</p>
+            <p className='ms-4 mt-2 lead'>{`${keyword ? 'Search Result' : 'List of all West African Countries'}`}</p>
             <div className='px-4'>
                 <hr />
             </div>
