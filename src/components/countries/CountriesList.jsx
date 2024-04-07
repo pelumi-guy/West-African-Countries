@@ -79,7 +79,7 @@ const CountriesList = () => {
 
                                         return (
                                             <Fragment key={idx}>
-                                                <button className=" btn col-4 col-md-2 d-flex justify-content-between align-items-center my-3 mx-1 px-3 country-thumbnail" key={idx}
+                                                <button className=" btn col-6 col-md-2 d-flex justify-content-between align-items-center my-3 mx-1 px-3 country-thumbnail" key={idx}
                                                     data-bs-toggle="modal" data-bs-target={`#countryDetailsModal-${idx}`}
                                                 // data-bs-whatever={country.name.common}
                                                 >
