@@ -7,7 +7,7 @@ import "./assets/styles/layout.css";
 function App() {
 
   return (
-    <div>
+    <div className='wrapper'>
       <Header />
         <CountriesList />
       <Footer />
