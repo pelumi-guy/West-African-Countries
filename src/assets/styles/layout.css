@@ -88,3 +88,8 @@ footer {
 .main {
   flex-grow: 1; /* Allow the main content to grow and fill the remaining space */
 }
+
+.top-header {
+  word-wrap: normal;
+  color: darkorange;
+}

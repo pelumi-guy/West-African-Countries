@@ -22,8 +22,6 @@ const CountriesList = () => {
 
             const countries = allCountries.filter(c => c.name.common.toLowerCase().includes(searchTerm));
             setSearchResult(countries);
-
-            // console.log({ keyword, searchResult });
         }
 
         searchCountries();
@@ -64,8 +62,6 @@ const CountriesList = () => {
             <div className='px-4'>
                 <hr />
             </div>
-
-            <i className="fa-brands fa-instagram"></i>
 
             <div className="container-fluid row d-flex justify-content-evenly mx-0">
                 {loading ? <Loader /> :

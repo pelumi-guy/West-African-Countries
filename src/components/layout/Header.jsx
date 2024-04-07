@@ -17,21 +17,22 @@ const Header = () => {
                     onClick={() => setKeyword('')}
                     />
                     &nbsp;
-                    <div className="text-mask-container">
+                    <div className="text-mask-container d-none d-lg-block">
                         <img src={AfricanPrint} alt="African Print" className='african-print img-fluid show-border clipped-image' />
                         <svg width="200" height="120"
                             xmlns="http://www.w3.org/2000/svg">
                             <clipPath id='clip-mask'>
-                                <text x="10" y="135" fontSize="50" fill="black" stroke="black" strokeWidth="5px" className='kablammo-header'>West African Countries</text>
+                                <text x="10" y="130" fontSize="50" fill="black" stroke="black" strokeWidth="5px" className='kablammo-header'>West African Countries</text>
                             </clipPath>
                         </svg>
-                        {/* <h1 className='text-mask'>West African Countries</h1> */}
                     </div>
+
+                    <h1 className='d-block d-lg-none top-header'>West African<br />Countries</h1>
                 </a>
                 </div>
 
 
-                <div className='col-3'>
+                <div className='col-12 col-lg-3 mt-1 mt-lg-0'>
                     <Search />
                 </div>
 
